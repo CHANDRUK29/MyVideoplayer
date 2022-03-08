@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="string_text1">Welcome!!!!!</string>
+    <string name="string_2">To use the video player application please allow the access.</string>
+</resources>

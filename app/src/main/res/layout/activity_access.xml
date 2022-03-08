@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allow_color"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".AccessActivity">
+
+    <ImageView
+        android:id="@+id/imgallow"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/allowaccess">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgallow"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/string_text1"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/string_2"
+        android:textColor="@color/white"
+        android:textSize="20dp"></TextView>
+
+    <Button
+        android:id="@+id/allowbtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Allow Access"
+        android:textAllCaps="true"
+        android:textColor="@color/white">
+
+    </Button>
+
+
+</RelativeLayout>
